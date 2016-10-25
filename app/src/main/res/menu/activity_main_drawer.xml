@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_upload_file"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="Upload File" />
+        <item
+            android:id="@+id/nav_file_manager"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="File Manager" />
+        <item
+            android:id="@+id/nav_public_files"
+            android:icon="@drawable/ic_folder_shared_black_24dp"
+            android:title="Public Files" />
+        <item
+            android:id="@+id/planPrice"
+            android:icon="@drawable/ic_card_giftcard_black_24dp"
+            android:title="Plan and Price" />
+        <item
+            android:id="@+id/earnMoney"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Earn money" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/faqicon"
+            android:title="FAQ" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_perm_identity_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>

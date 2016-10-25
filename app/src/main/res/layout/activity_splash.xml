@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center"
+    android:id="@+id/colorchaningingLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Uploadion"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:textColor="#efefef"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/biglogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Era of File Sharing"
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
